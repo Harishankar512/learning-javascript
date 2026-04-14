@@ -40,3 +40,30 @@ const users=[
     },
 ]
 console.log(users[0].name);
+function myFun()
+{
+    console.log(-1);
+}
+myFun();
+function myFun()
+{
+    return -1;
+}
+console.log(myFun);
+console.log(myFun());
+function add(num1,num2)
+{
+    return num1 + num2
+}
+console.log(add(12,26))
+function add(num1,num2)
+{
+    return num1 - num2
+}
+console.log(add(12,26));
+
+
+let name="hari";
+let age="22";
+console.log("My....name is" + name + ". she is " + age);
+console.log(`My ....name is ${name}.she is ${age}`);
